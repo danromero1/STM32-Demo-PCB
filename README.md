@@ -43,7 +43,6 @@ This project was my introduction to professional PCB design practices and microc
 - Proper ground plane implementation
 - Signal routing with impedance awareness
 - ERC/DRC verification passed
-- Manufacturing-ready Gerber files generated
 
 ---
 
@@ -68,7 +67,6 @@ This project was my introduction to professional PCB design practices and microc
 - Electrical Rule Check (ERC) compliance
 - Design Rule Check (DRC) compliance
 - Schematic-to-layout verification
-- Manufacturing file validation
 
 ---
 
@@ -102,8 +100,7 @@ Referenced STM32F103C8T6 datasheet and application notes to create a complete sc
 **Clock:** 16 MHz external crystal oscillator  
 **Power Input:** 5V via USB  
 **Regulated Output:** 3.3V (AMS1117)  
-**PCB:** 2-layer, standard FR4  
-**Dimensions:** [Dimensions if known]  
+**PCB:** 2-layer, standard FR4    
 **Connector:** USB Type-B (or mini/micro - specify if known)
 
 ---
@@ -138,14 +135,12 @@ This project provided hands-on experience with:
 - **Schematic:** Complete schematic design in KiCAD format
 - **PCB Layout:** 2-layer board layout with ground plane
 - **Gerber Files:** Manufacturing-ready RS-274X format
-- **BOM:** Complete bill of materials
-- **Pick-and-Place:** Component placement data
 
 ---
 
 ## Design Tools
 
-- **KiCAD 6.x** - Schematic capture and PCB layout
+- **KiCAD 6** - Schematic capture and PCB layout
 - **Datasheets** - STM32F103C8T6, AMS1117, USB specifications
 - **Application Notes** - STMicroelectronics hardware design guidelines
 
@@ -156,8 +151,8 @@ This project provided hands-on experience with:
 **What Went Well:**
 - Clean schematic organization and hierarchical design
 - Proper decoupling capacitor placement
-- Successful DRC/ERC verification on first attempt
-- Manufacturing-ready output files
+- Successful DRC/ERC verification
+
 
 **Future Improvements:**
 - Consider 4-layer stackup for better power distribution
